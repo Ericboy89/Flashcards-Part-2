@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow-y: auto;
+  margin: 20px;
+}
+
+
+h1 {
+  font-size: 40px;
+    margin: 5px;
+    /* line-height: 1.1; */
+  }
+  p{
+  margin: 0px;
+  font-weight: bold;
+  font-size: 20px;
+  font-style:normal;
+  margin: 5px;
+  }
+
+.app {
+  text-align: center;
+  padding: 20px;
+  background-image: url(images/b3.jpg);
+  background-size:cover;
+  background-position:center;
+  background-repeat: no-repeat; 
+  background-attachment:fixed;
+  color:black;
+  border-radius: 8px;
+  border: rgba(33, 144, 83, 0.66) solid 4px;
+  box-shadow: 0 0px 30px rgb(60, 58, 58);
+  max-width:150%;
+  width: 100%;
+  /* height: auto; */
+  margin: auto;
+}
+
+.flashcard-container {
+  margin-top: 5px;
+}
+
+.flashcard {
+  width: 400px;
+  min-height: 200px;
+  height: 350px;
+  margin: 0px auto;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color:white; 
+  transition: transform 0.2s;
+  box-shadow: 0 0 30px rgb(19, 20, 17);
+  border: solid rgb(119, 115, 115);
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center;
+  align-items: center;
+}
+
+.flashcard:hover {
+  transform: scale(1.05);
+  
+}
+
+.flashcard img {
+  width: 150px;
+  height: 150px;
+  /* margin-top: 0ch; */
+  border-radius: 10px;
+  border: gray solid 2px;
+
+}
+
+.flashcard-content {
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: center;
+  justify-content: flex-start; /* Ensure everything aligns at the top */
+  width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(34, 36, 40); /* Green background with 30% opacity */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px; /* Space between image and button */
+}
+
+.flip-button{
+display: flex;
+justify-content: center;
+align-items: center;
+margin:auto;
+}
+
+.submit-button{
+  width: 30%;
+  height: 40px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.navigation-buttons{
+  display: flex;
+  justify-content:space-evenly;
+  padding: 0px 15%;
+}
+
+.user-input{
+    width: 70%;
+    padding: 5px;
+    font-size: 1rem;
+    border: 2px solid black; /* Default border color */
+    border-radius: 5px; /* Rounded corners */
+    outline: none;
+    background-color: rgba(227, 230, 234, 0.87);
+    transition: border-color 0.3s ease-in-out;
+}
+
+.anwer_buton{
+ margin: 10px;
+}
+
+
+
+button:hover {
+  background-color: rgba(118, 226, 167);
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
